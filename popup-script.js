@@ -25,7 +25,7 @@ const uiConfig = {
         },
         uiShown: function () {
             document.getElementById('my_sign_in').style.display = 'none';
-            // document.getElementById('wrapper').style.pointerEvents = 'none';
+            document.getElementById('wrapper').style.pointerEvents = 'none';
         }
     },
     signInFlow: 'popup',
